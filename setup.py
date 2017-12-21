@@ -7,8 +7,10 @@ setup(
   author = 'Joshua Gang',
   author_email = 'joshua.gang@gmail.com',
   url = 'https://github.com/MrTyton/ConvergentRandomChoice', 
-  download_url = 'https://github.com/MrTyton/ConvergentRandomChoice/archive/0.1.tar.gz', 
+  download_url = 'https://github.com/MrTyton/ConvergentRandomChoice/archive/0.1.tar.gz',
+  liscence = 'GNU',
   keywords = ['random walk', 'numpy',], 
-  install_requires = ['numpy'],
-  classifiers = [],
+  install_requires=['numpy'],
+  python_requires='>=3.6',
+  classifiers = ['License :: GNU General Public License v3.0', 'Programming Language :: Python :: 3.6'],
 )
