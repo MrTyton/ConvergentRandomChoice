@@ -12,5 +12,5 @@ setup(
   keywords = ['random walk', 'numpy',], 
   install_requires=['numpy'],
   python_requires='>=3.6',
-  classifiers = ['License :: GNU General Public License v3.0', 'Programming Language :: Python :: 3.6'],
+  classifiers = ['Programming Language :: Python :: 3.6'],
 )
